@@ -1,6 +1,6 @@
-# DUNE ND-LAr 2×2 Charged Track Multiplicity & Systematics Analysis
+# NDLAr-2x2 Proton Sample Distributions
 
-Analysis of neutrino interactions from MiniRun6.5 (MC) and sandbox data CAFs collected with the NuMI beam at Fermilab.
+A focused study of proton track kinematics in the ND-LAr 2×2 detector using MiniRun6.5 MC and sandbox data CAFs collected with the NuMI beam at Fermilab. Angular and track-length distributions of reconstructed proton candidates are compared between simulation and data.
 All plots produced by the macros listed below are documented in the technote at docDB:12345.
 
 ---
