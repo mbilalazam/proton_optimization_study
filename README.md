@@ -18,8 +18,8 @@ All plots produced by the macros listed below are documented in the technote at 
 
 | File | Description |
 |------|-------------|
-| `purity_dlp_multiplicity.cc` | Processes MC CAF files. Applies CC νµ selection with truth-matching cuts (`goodInteraction`), fills track multiplicity and kinematic histograms, and writes output histograms and trees to `output.root` |
-| `data.cc` | Processes data CAF files. Applies the same reco-level selection as the MC (without truth-matching cuts), fills equivalent histograms, and writes output to `sandbox_v11_minervaOff_geomContainRecoOnly_Lgt3cm_300cm_endZneg0to5cmVeto_cosZgtNeg0p9.root` |
+| `purity_dlp_multiplicity.cc` | Processes MC CAF files and writes output histograms and trees to `output.root` |
+| `data.cc` | Processes data CAF files and writes output to `sandbox_v11_minervaOff_geomContainRecoOnly_Lgt3cm_300cm_endZneg0to5cmVeto_cosZgtNeg0p9.root` |
 
 ---
 
@@ -27,8 +27,8 @@ All plots produced by the macros listed below are documented in the technote at 
 
 | File | Description |
 |------|-------------|
-| `output.root` | Output produced by `purity_dlp_multiplicity.cc`; contains MC histograms and nusystematics weight trees |
-| `sandbox_v11_minervaOff_geomContainRecoOnly_Lgt3cm_300cm_endZneg0to5cmVeto_cosZgtNeg0p9.root` | Output produced by `data.cc`; contains data histograms with the full reco selection applied |
+| `output.root` | Output produced by `purity_dlp_multiplicity.cc` |
+| `sandbox_v11_minervaOff_geomContainRecoOnly_Lgt3cm_300cm_endZneg0to5cmVeto_cosZgtNeg0p9.root` | Output produced by `data.cc` |
 
 ---
 
@@ -37,7 +37,7 @@ All plots produced by the macros listed below are documented in the technote at 
 ### Style
 | File | Description |
 |------|-------------|
-| `protoDUNEStyle.C` | ROOT plotting style macro; sets the `DUNE:ND-LAr 2x2` label and standard pad/axis formatting used across all plots |
+| `protoDUNEStyle.C` | ROOT plotting style macro for consistent formatting used across all plots |
 
 ### Proton Kinematics — Data/MC Comparisons
 | File | Description |
