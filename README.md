@@ -39,6 +39,11 @@ All plots produced by the macros listed below are documented in the technote at 
 |------|-------------|
 | `protoDUNEStyle.C` | ROOT plotting style macro for consistent formatting used across all plots |
 
+### Proton Selection Efficiency
+| File | Description |
+|------|-------------|
+| `plot_MC_proton_cosTheta_efficiency.C` | Plots proton selection efficiency as a function of cos θ, comparing the baseline selection (Nominal-MINERvA) and the final selection; includes raw counts and shape-normalized versions with a bin-by-bin efficiency ratio pad |
+
 ### Proton Kinematics — Data/MC Comparisons
 | File | Description |
 |------|-------------|
